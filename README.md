@@ -1,6 +1,7 @@
 # number-checker
 
 [![OpenSSF Scorecard](https://api.scorecard.dev/projects/github.com/HJAngel02/number-checker/badge)](https://scorecard.dev/viewer/?uri=github.com/HJAngel02/number-checker)
+[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/16322/badge)](https://www.bestpractices.dev/projects/16322)
 
 A C++ program that reads an integer and prints `Even` or `Odd`.
 If integer input fails, it prints `Invalid input.` and exits with
