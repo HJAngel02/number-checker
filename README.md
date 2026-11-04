@@ -30,4 +30,19 @@ Follow the existing C++ style, fix compiler warnings, and add
 automated tests for major new functionality.
 English reports and comments are welcome.
 
+## Build and test automation
+
+On Linux with GNU Make, g++, and Bash:
+- Build: `make`
+- Build and run tests: `make check`
+- Remove the executable: `make clean`
+
+The seven automated tests check positive and negative integers,
+zero, invalid text, and empty input, including output and exit status.
+The test code is covered by the repository's MIT license.
+
+GitHub Actions runs the build and tests on pushes and pull requests.
+The build enables -Wall, -Wextra, -Wpedantic, and -Werror.
+Major new functionality must include automated tests.
+
 Maintained by HJAngel02. Licensed under [MIT](LICENSE).
